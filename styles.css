@@ -1,0 +1,187 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #856fdd;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(to right , rgb(219, 32, 50),rgb(192, 36, 62));
+    color: white;
+    padding : 60px 20px; /* top and bottom & left amd right  */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero .highlight {
+    color: rgb(74, 208, 212);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.primary {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(70, 87, 235);
+    color: #f5f5f5;
+}
+
+.summary-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.option {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.option span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(74, 208, 212);
+}
+
+.api-key-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.api-key-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.api-key-container p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em; 
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+} 
+
+.api-key-container input {
+    width: 80%;
+    max-width: 400px;
+    font-size: 1rem;
+    border: 2px solid #0f0c0c;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.api-key-container button {
+    background-color: #6c5ce7;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s; /* Corrected transition duration */
+}
+
+.api-key-container button:hover {
+    background: #4834d4;
+}
+
+.summarizer {
+    background: white;
+    margin: 50px auto;
+    padding: 50px;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.summarizer h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.summarizer p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+    /* Removed empty background-color property */
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.summary-buttons {
+    margin-top: 10px;
+}
+
+.summary-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.summary-output {
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    border-left: 8px solid #4f46e4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #0f0c0c;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    display: none;
+    margin: 20px auto 40px auto;
+    max-width: 800px;
+    font-weight: 500;
+}
+
+.summary-output::before {
+    content: "🔍 summary";
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    margin: 10px 20px;
+    color: #6c5ce7;
+}
